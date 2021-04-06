@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Fira Code;
+}
+
+body {
+    background-color: #182240;
+}
+
+/* box styling */
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box-content {
+    background: #144E73;
+    height: 440px;
+    width: 400px;
+    padding: 20px;
+    margin-top: -4px;
+}
+
+.box-image img {
+    width: 300px;
+    height: 480px;
+}
+
+/** text styling **/
+#sGreetings {
+    color: #48BED9;
+    margin-top: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header-txt {
+    margin: 10px;
+    color: #48BED9;
+}
+
+span {
+    color: #8ABFBA;
+}
+
+.link {
+    text-decoration: none;
+    color: #8ABFBA;
+    font-size: 15px;
+}
+.link:hover {
+    color: #ffe7ff;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 950px) {
+  .box-image img {
+	width: 220px;
+	height: 340px;
+  }
+  .box-content {
+	width: 320px;
+	height: 300px;
+  }
+  #sGreetings {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  }
+  .header-txt {
+	margin: 4px;
+	font-size: 13px;
+  }
+  .link {
+  font-size: 11px;
+  }
+}
