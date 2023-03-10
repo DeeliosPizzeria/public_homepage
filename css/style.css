@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #182240;
+    background-color: #16252E;
 }
 
 /* box styling */
@@ -18,7 +18,7 @@ body {
 }
 
 .box-content {
-    background: #144E73;
+    background: #123540;
     height: 440px;
     width: 400px;
     padding: 20px;
@@ -32,7 +32,7 @@ body {
 
 /** text styling **/
 #sGreetings {
-    color: #48BED9;
+    color: #C4FB3B;
     margin-top: 20px;
     font-size: 14px;
     margin-bottom: 40px;
@@ -41,16 +41,16 @@ body {
 
 .header-txt {
     margin: 10px;
-    color: #48BED9;
+    color: #C4FB3B;
 }
 
 span {
-    color: #8ABFBA;
+    color: #00F2F9;
 }
 
 .link {
     text-decoration: none;
-    color: #8ABFBA;
+    color: #F66346;
     font-size: 15px;
 }
 .link:hover {
